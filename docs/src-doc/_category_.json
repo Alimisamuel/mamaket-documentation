@@ -1,0 +1,8 @@
+{
+  "label": "Src - Doc",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The src folder is the main directory in a React project where all the source code resides. It typically includes the following subdirectories and files"
+  }
+}

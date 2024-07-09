@@ -1,0 +1,42 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+--ifm-color-primary: #2e1834;
+  --ifm-color-primary-dark: #29162f;
+  --ifm-color-primary-darker: #27142c;
+  --ifm-color-primary-darkest: #201124;
+  --ifm-color-primary-light: #331a39;
+  --ifm-color-primary-lighter: #351c3c;
+  --ifm-color-primary-lightest: #3c1f44;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+--ifm-color-primary: #dec2e5;
+  --ifm-color-primary-dark: #cea4d8;
+  --ifm-color-primary-darker: #c696d2;
+  --ifm-color-primary-darkest: #ae69bf;
+  --ifm-color-primary-light: #eee0f2;
+  --ifm-color-primary-lighter: #f6eef8;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body{
+  font-family: "IBM Plex Sans", sans-serif;
+}
+p{
+  font-size: 14px;
+}

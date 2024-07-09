@@ -1,0 +1,8 @@
+{
+  "label": "Getting started",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "The Mamaket project is built on React, a popular JavaScript library for building user interfaces. The structure of the project is organized to maintain a clear and modular architecture, facilitating easier development and maintenance."
+  }
+}
